@@ -1,0 +1,60 @@
+#container{
+    
+    max-width: 700px;
+    margin:12rem auto;
+    text-align:center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-image: url("https://media.istockphoto.com/id/514346283/photo/football-rugby-cricket-action.jpg?s=1024x1024&w=is&k=20&c=ejKflhM7AIAo_DnG_zgARmOV9tUU4NerBjshCmMpkg8=");
+    background-size:cover;
+    padding:2rem;
+}   
+h1{
+    color:antiquewhite;
+
+}
+.question-one, .question-two, .question-three{
+    width:50%;
+    height:1.5rem;
+    margin: 2rem auto;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius:5px; 
+    background-color:aquamarine;
+}
+.list-answers-one,.list-answers-two,.list-answers-three{
+    width:50%;
+    margin:auto;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius:5px;
+    background-color:blanchedalmond; 
+}
+button{
+    width:12rem;
+    height:2rem;
+    margin:2rem auto;
+    background-color: cadetblue;
+}
+button:hover {
+    background-color: lightgrey;
+}
+#result{
+    width:50%;
+    height:1.5rem;
+    margin: 2rem auto;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius:5px;
+    background-color:bisque; 
+}
+@media only screen and (max-width: 768px) {
+    #container {
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 480px){
+    #container {
+        max-width: 90%;
+    }
+}
